@@ -82,7 +82,7 @@ addToList = (event) => {
         <input className="form-control" onChange={this.handleNameChange} name="userName" type="text" row = "1" placeholder='Enter Username' value={this.state.userName} />
 
         <label>Artist/Band: </label>
-        <input className="form-control" onChange={this.handleArtistChange} name="songArtist" type="text" row = "1" placeholder='Enter name of Artist/Band' value={this.state.songArtist} />
+        <input className="form-control" onChange={this.handleArtistChange} name="songArtist" type="text" row = "1" placeholder='Enter name of Artist or Band' value={this.state.songArtist} />
 
         <label>Song Title: </label>
         <input className="form-control" onChange={this.handleTitleChange} name="songTitle" type="text" row = "1" placeholder='Enter Song Title' value={this.state.songTitle} />

@@ -5,7 +5,7 @@ const PlayListItem = (props) => {
   const song = props.song;
 
   return (
-    <ul className="card-block list-group col-lg-6 col-md-6">
+    <ul className="card-block list-group col-lg-8 col-md-6">
        <li className="list-group-item borderless">
           <div>
             <span>User:</span>
